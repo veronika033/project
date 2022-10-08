@@ -9,9 +9,10 @@
     <script>
         function hello() {
             let user_name = prompt("Напишите свое имя", "Здесь");
-            document.write(user_name + "Привет и добро пожаловать!");
-
-
+            //document.write(user_name + "Привет и добро пожаловать!");
+            if (user_name == null) {
+                alert("Извините, произошла ошибка!"); // инструкция 1
+            }
         }
 
     </script>
